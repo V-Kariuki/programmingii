@@ -12,11 +12,13 @@ int main() {
     }
 
     // Example of else-if ladder
-    int y = 0;
-    if (y > 0) {
+    int y = 10;
+    if (y > 10) {
         cout << "y is positive" << endl;
-    } else if (y < 0) {
+    } else if (y < 10) {
         cout << "y is negative" << endl;
+    } else if (y==10){
+        cout<< "y is 10"<< endl;
     } else {
         cout << "y is zero" << endl;
     }
